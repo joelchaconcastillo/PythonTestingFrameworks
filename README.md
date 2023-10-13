@@ -100,12 +100,12 @@ Observations: Apache License 2.0
 
 Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
 
-| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |
-|---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|
+| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |  Date first version |
+|---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|-----------------------|
+| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   |
 | `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
 | `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
 | `testify`           | Unit Testing      | Medium           | Yes             | No              | Limited              | Limited               | 
-| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   |
 | `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               |
 | `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               |
 | `doctest`           | Docstring Testing | Easy             | Yes             | No              | No                   | Limited               |
@@ -125,14 +125,16 @@ Note:
 - "Mocking Capabilities" assesses the framework's support for mocking and stubbing during testing.
 - "BDD Support" shows whether the framework is designed for Behavior-Driven Development (BDD).
 
-The table provides a simplified comparison. Depending on your project's specific needs, you may want to consider other factors like community support, available plugins and extensions, and integration with other tools in your development and testing stack.
+The table previously shown provides a simplified comparison. 
 
-Selecting the right testing framework depends on your project requirements and personal preferences. Consider the type of testing you'll be doing, the complexity of your tests, and the tools that work well with your development environment.
+More comparisons
 
-
-
-
-
+| Feature                               | `unittest`                 | `pytest`                    | `nose`                     |
+|---------------------------------------|-----------------------------|-----------------------------|-----------------------------|
+| Test Discovery                        | Limited (manual test discovery) | Automatic test discovery   | Automatic test discovery   |
+| Test Organization                     | Class-based test cases       | Function-based test cases  | Function-based test cases  |
+| Assertions                            | Basic assertions             | Rich set of built-in and custom assertions | Basic assertions             |
+| Fixture Support                       | Basic test setup/teardown methods | Powerful fixtures and plugins | Basic test
 
 
 ###################Suggestions##############################
