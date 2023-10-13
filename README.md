@@ -62,12 +62,16 @@ License: MIT License
 
 Observations:
 
+**While both nose and nose2 serve similar purposes and share some common features, nose2 is a more modern and actively maintained framework. If you are starting a new project or working with Python 3 and later versions, nose2 is likely a better choice. However, if you have an existing project that relies on nose, it may be more practical to continue using nose for backward compatibility
+
 ##### testify #####
 URL: https://pypi.org/project/testify/
 
 License: MIT License
 
 Observations:
+
+**It is commonly used alongside other testing tools.
 
 ##### playwright #####
 URL: https://playwright.dev/
@@ -100,6 +104,7 @@ Creating a comprehensive comparison table for testing frameworks can be quite ex
 |---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|
 | `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
 | `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
+| `testify`           | Unit Testing      | Medium           | Yes             | No              | Limited              | Limited               | 
 | `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   |
 | `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               |
 | `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               |
