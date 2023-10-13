@@ -11,3 +11,6 @@ URL: PythonTestingFrameworks
 
 ##### Unittest #####
 URL: https://docs.python.org/3/library/unittest.html
+
+##### Hyphotesis #####
+URL: https://hypothesis.readthedocs.io/en/latest/
