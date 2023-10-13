@@ -34,7 +34,7 @@ Observations:
 ##### doctest #####
 URL: https://docs.python.org/3/library/doctest.html
 
-Licence: Python Software Foundation License (PSF License)
+License: Python Software Foundation License (PSF License)
 
 Observations: 
 
