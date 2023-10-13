@@ -5,11 +5,11 @@ Within this README, you will find a brief explanation for each available framewo
 
 These frameworks are sort in terms of usability and popularity, each of them contains three files:
 
-`install.sh`: this is to install the package with pip3
+`install.sh`: this bash facilitates installation for each framework with pip3
 
-`run.sh`: to run the example
+`run.sh`: this bash is aimed to run the example by typing ./run.sh (before grant execution permissions)
 
-`output.log`: saves the output (stdout and stderr) of executing 'run.sh'
+`output.log`: saves the output (stdout and stderr) of executing 'run.sh' (it already has an example, note that some frameworks don't have output when all test are ok)
 
 
 ## Observations
