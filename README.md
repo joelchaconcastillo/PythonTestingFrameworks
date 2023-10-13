@@ -1,4 +1,4 @@
-#Exploring Python Testing Frameworks: A Comprehensive Review
+# Exploring Python Testing Frameworks: A Comprehensive Review
 
 This repository has been created to assess the performance, usability, and maintenance aspects of frameworks specifically designed for Python language testing.
 Within this README, you will find a brief explanation for each available framework, along with an example for each.
@@ -12,16 +12,16 @@ These frameworks are sort in terms of usability and popularity, each of them con
 `output.log`: saves the output (stdout and stderr) of executing 'run.sh'
 
 
-Observations:
+## Observations
 *** unittest is the primary unit testing framework in Python, and it is available in Python versions 2.7 and later. unittest2 serves as a compatibility layer for users of Python 2.4-2.6 who want to access some of the features available in the standard unittest module introduced in Python 2.7.
 
 **While both nose and nose2 serve similar purposes and share some common features, nose2 is a more modern and actively maintained framework. If you are starting a new project or working with Python 3 and later versions, nose2 is likely a better choice. However, if you have an existing project that relies on nose, it may be more practical to continue using nose for backward compatibility
 
 
 
+## Framework Feature Comparison: A Detailed Analysis
 
-
-Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
+Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, this place provides several comparison tables for some popular testing frameworks in Python. Keep in mind that these table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
 
 | Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |  Date first release |
 |---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|-----------------------|
@@ -50,7 +50,7 @@ Note:
 
 The table previously shown provides a simplified comparison. 
 
-Comparison of most popular frameworks:
+### Comparison of most popular frameworks:
 
 | Feature                               | `unittest`                 | `pytest`                    | `nose`                     |
 |---------------------------------------|-----------------------------|-----------------------------|-----------------------------|
@@ -60,7 +60,7 @@ Comparison of most popular frameworks:
 | Fixture Support                       | Basic test setup/teardown methods | Powerful fixtures and plugins | Basic test |
 
 
-Some description of the most popular frameworks:
+### Description of some popular frameworks:
 
 
 | Framework            | Description                                                                 | Key Features                           | Popularity                                   |
@@ -73,7 +73,7 @@ Some description of the most popular frameworks:
 | Robot Framework      | A generic open-source automation framework for acceptance testing.       | Keyword-driven testing, test data-driven, easy-to-read test cases.   | Primarily used for acceptance testing.       |
 | Hypothesis           | A property-based testing framework that generates test data automatically. | Automatically generates test cases, wide test coverage, complex test scenarios. | Gaining popularity in property-based testing. |
 
-
+### Framework Foresight: Exploring the Advantages and Drawbacks
 
 Certainly, here are the advantages and disadvantages of several popular Python testing frameworks and tools:
 
@@ -136,17 +136,17 @@ Please note that the provided links lead to the official documentation or reposi
 
 
 
-###################Suggestions##############################
+## Some suggestions
 
-AI-Enhanced Static Code Analysis
-====DeepCode
-====Kite
-Mutation Testing 
-====MutPy
-====Pitest
-AI-Based Code Review
-====CodeClimate
-====DeepCode
+* AI-Enhanced Static Code Analysis
+  * DeepCode
+  * Kite
+* Mutation Testing 
+  * MutPy
+  * Pitest
+* AI-Based Code Review
+  * CodeClimate
+  * DeepCode
 
 Some references:
 
