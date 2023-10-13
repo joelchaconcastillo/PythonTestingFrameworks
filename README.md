@@ -1,10 +1,13 @@
-# PythonTestingFrameworks
+#"Exploring Python Testing Frameworks: A Comprehensive Review"
 This repository has been created to assess the performance, usability, and maintenance aspects of frameworks specifically designed for Python language testing.
 Within this README, you will find a brief explanation for each available framework, along with an example for each.
 
 These frameworks are sort in terms of usability and popularity, each of them contains three files:
+
 `install.sh`: this is to install the package with pip3
+
 `run.sh`: to run the example
+
 `output.log`: saves the output (stdout and stderr) of executing 'run.sh'
 
 
@@ -123,4 +126,99 @@ AI-Based Code Review
 ====CodeClimate
 ====DeepCode
 
+Some references:
 
+https://www.softwaretestinghelp.com/python-testing-frameworks/
+
+https://www.browserstack.com/guide/top-python-testing-frameworks
+
+https://www.testgrid.io/blog/python-testing-framework/
+
+https://svitla.com/blog/testing-frameworks-for-python
+
+https://www.learnenough.com/blog/python-unit-testing-frameworks
+
+https://testautomationtools.dev/top-5-python-testing-frameworks/
+
+https://www.lambdatest.com/blog/top-python-testing-frameworks/
+
+https://medium.com/@arnabroyy/best-python-testing-frameworks-bb7ab1b3d366
+
+https://www.testscenario.com/python-testing-frameworks/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Certainly, here's a table summarizing the advantages and disadvantages of some of the most popular Python testing frameworks:
+
+| Framework    | Advantages                                                                                                   | Disadvantages                                                                                                           |
+|-------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| `unittest`   | **Advantages:**
+              - Built-in to Python Standard Library.
+              - Well-documented and widely used.
+              - Supports test discovery.
+              - Offers test fixtures for setup and teardown.
+              - Compatible with continuous integration tools.
+              **Disadvantages:**
+              - Often considered verbose.
+              - Less concise syntax compared to other frameworks.
+              - Requires more boilerplate code.    |                                                                                                                |
+| `pytest`     | **Advantages:**
+              - Concise and readable test code.
+              - Rich ecosystem of plugins.
+              - Powerful fixtures system.
+              - Advanced features like parameterized testing.
+              - Detailed failure reports.
+              - Well-maintained and highly extensible.
+              **Disadvantages:**
+              - Third-party library (not built-in).
+              - Learning curve for advanced features.     |                                                                                                                |
+| `nose`       | **Advantages:**
+              - Supports test discovery and test running.
+              - Allows test attributes and better test discovery.
+              - Extensible through plugins.
+              **Disadvantages:**
+              - Less popular and maintained compared to `pytest`.
+              - Limited features for advanced testing.
+              - Somewhat dated and less extensible.    |                                                                                                                |
+| `doctest`    | **Advantages:**
+              - Part of Python Standard Library.
+              - Embeds tests within documentation.
+              - Simple test setup.
+              - Useful for documentation testing.
+              **Disadvantages:**
+              - Limited to testing docstrings.
+              - May not be suitable for complex test scenarios.
+              - Less flexible compared to other frameworks.  |                                                                                                                |
+| `nose2`      | **Advantages:**
+              - An improved version of `nose` with better test discovery.
+              - Test attributes and plugins.
+              - Supports parallel test execution.
+              **Disadvantages:**
+              - Less popular compared to `pytest`.
+              - Still less known in the testing community.
+              - Less extensible and feature-rich than `pytest`.   |                                                                                                                |
+| `Hypothesis` | **Advantages:**
+              - Property-based testing.
+              - Automatically generates a wide range of test cases.
+              - Unbiased testing with complex data.
+              - Discovers edge cases.
+              - Helps uncover unexpected issues.
+              **Disadvantages:**
+              - Requires understanding of property-based testing.
+              - May not be suitable for all types of testing.
+              - Learning curve for newcomers.    |                                                                                                                |
+
+Please note that the advantages and disadvantages of each testing framework are subjective and can depend on your specific project requirements and personal preferences. It's essential to consider your project's needs and your team's familiarity with the framework when making a choice. Additionally, some frameworks can be used together or integrated to leverage their respective strengths.
