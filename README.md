@@ -100,20 +100,20 @@ Observations: Apache License 2.0
 
 Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
 
-| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |  Date first version |
+| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |  Date first release |
 |---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|-----------------------|
-| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   |
-| `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
-| `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
-| `testify`           | Unit Testing      | Medium           | Yes             | No              | Limited              | Limited               | 
-| `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               |
-| `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               |
-| `doctest`           | Docstring Testing | Easy             | Yes             | No              | No                   | Limited               |
-| `Hypothesis`        | Property-based    | Medium           | Yes             | No              | Yes                  | No                    |
-| `tox`               | Test Automation   | Medium           | Yes             | Yes             | No                   | No                    |
-| `Behave`            | BDD               | Medium           | Yes             | Yes             | No                   | No                    |
-| `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    |
-| `playwright`        | BDD               | Medium           | Yes             | Yes             | Yes                  | Yes                   |
+| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   | 2004                  |
+| `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 2001                  |
+| `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 2019                  |
+| `testify`           | Unit Testing      | Medium           | Yes             | No              | Limited              | Limited               | 2010                  |
+| `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               | 2005                  |
+| `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               | 2013                  |
+| `doctest`           | Docstring Testing | Easy             | Yes             | No              | No                   | Limited               | 1997                  | 
+| `Hypothesis`        | Property-based    | Medium           | Yes             | No              | Yes                  | No                    | 2016                  | 
+| `tox`               | Test Automation   | Medium           | Yes             | Yes             | No                   | No                    | 2013                  |
+| `Behave`            | BDD               | Medium           | Yes             | Yes             | No                   | No                    | 2010                  |
+| `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    | 2008                  |
+| `playwright`        | BDD               | Medium           | Yes             | Yes             | Yes                  | Yes                   | 2020                  |
 
 
 Note:
@@ -133,8 +133,26 @@ More comparisons
 |---------------------------------------|-----------------------------|-----------------------------|-----------------------------|
 | Test Discovery                        | Limited (manual test discovery) | Automatic test discovery   | Automatic test discovery   |
 | Test Organization                     | Class-based test cases       | Function-based test cases  | Function-based test cases  |
-| Assertions                            | Basic assertions             | Rich set of built-in and custom assertions | Basic assertions             |
-| Fixture Support                       | Basic test setup/teardown methods | Powerful fixtures and plugins | Basic test
+| Assertions                            | Basic assertions             | Rich set of built-in and custom assertions | Basic assertions   |
+| Fixture Support                       | Basic test setup/teardown methods | Powerful fixtures and plugins | Basic test |
+
+
+
+Comparing different Python frameworks for unit testing is a common way to determine which one suits your project's needs. Here's a comparative table of some popular Python unit testing frameworks:
+
+| Framework            | Description                                                                 | Key Features                           | Popularity                                   |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------------|---------------------------------------------|
+| unittest (Built-in)  | Part of the Python Standard Library, inspired by Java's JUnit.             | Test discovery, test fixtures, test discovery, test parametrization.   | Widely used, but often considered verbose.   |
+| pytest               | A third-party framework that simplifies testing and is highly extensible. | Concise test code, fixtures, plugins, parametrization, advanced features. | Extremely popular, large community.        |
+| nose                 | An older, third-party framework with test discovery and test running.     | Test discovery, plugins, test attributes, better test discovery.        | Less popular in recent years.               |
+| doctest              | Part of the Python Standard Library, allows embedding tests in docstrings. | Simple test setup, minimalistic.                                      | Useful for documentation testing.           |
+| nose2                | An improved version of the `nose` framework.                               | Test discovery, test attributes, plugins, parallel test execution.   | Gaining popularity, but less known.         |
+| Robot Framework      | A generic open-source automation framework for acceptance testing.       | Keyword-driven testing, test data-driven, easy-to-read test cases.   | Primarily used for acceptance testing.       |
+| Hypothesis           | A property-based testing framework that generates test data automatically. | Automatically generates test cases, wide test coverage, complex test scenarios. | Gaining popularity in property-based testing. |
+
+
+"Please keep in mind that `doctest` is primarily designed for testing code examples embedded within docstrings, while `Robot Framework` is predominantly employed for acceptance testing purposes.
+
 
 
 ###################Suggestions##############################
