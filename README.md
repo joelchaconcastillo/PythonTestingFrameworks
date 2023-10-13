@@ -1,4 +1,5 @@
-#"Exploring Python Testing Frameworks: A Comprehensive Review"
+#Exploring Python Testing Frameworks: A Comprehensive Review
+
 This repository has been created to assess the performance, usability, and maintenance aspects of frameworks specifically designed for Python language testing.
 Within this README, you will find a brief explanation for each available framework, along with an example for each.
 
@@ -73,6 +74,26 @@ Some description of the most popular frameworks:
 | Hypothesis           | A property-based testing framework that generates test data automatically. | Automatically generates test cases, wide test coverage, complex test scenarios. | Gaining popularity in property-based testing. |
 
 
+
+Certainly, here are the advantages and disadvantages of several popular Python testing frameworks and tools:
+
+| Framework Name | Advantages              | Disadvantages |
+|-----------------|----------------------|----------------------|
+| `unittest`     |    - Built-in to Python's Standard Library. <br>- Supports test discovery. <br>- Offers test fixtures for setup and teardown.  |- Often considered verbose, leading to more code. <br>- Less concise syntax compared to other frameworks. <br>  - Limited advanced features compared to some third-party frameworks.|
+| `unittest2`     | - Provides some advanced features and bug fixes over the original `unittest` in Python 2.      |   - No longer necessary or maintained in Python 3 and above.|
+| `pytest`       |  - Concise and readable test code. <br> - Rich ecosystem of plugins for extending functionality. <br> - Powerful fixtures system for better test organization. <br> - Advanced features like parameterized testing.|  - Requires installation as it's not part of the Python Standard Library.<br> - Learning curve for advanced features, but it's worth it for complex testing.  |
+| `nose`         |   - Supports test discovery and test running. <br>  - Allows the use of test attributes and offers better test discovery.<br> - Extensible through various plugins.             | - Less popular and maintained compared to `pytest`. <br>  - Limited features for advanced testing. <br>  - Somewhat dated and less extensible.|
+| `nose2`        |   - An improved version of `nose` with better test discovery. <br>  - Supports test attributes and offers plugins.
+  <br> - Provides support for parallel test execution.        |   - Less popular compared to `pytest`. <br>  - Still less known in the testing community. <br>  - Less extensible and feature-rich than `pytest`.|
+| `doctest`      |   - Part of the Python Standard Library, so no need for additional installation.  <br>  - Allows embedding tests within documentation, making it great for documentation testing. <br>  - Offers simple test setup.      |   - Limited to testing docstrings. <br> - May not be suitable for complex test scenarios. <br>  - Less flexible compared to other frameworks.|
+| `Behave`       |   - A Python implementation of the Gherkin language, making it suitable for behavior-driven development. <br>  - Easy to write human-readable test cases in plain text.      |   - Primarily designed for behavior-driven testing, not low-level unit testing. <br>  - May require additional libraries for integration with specific frameworks.
+| `Robot Framework` |  - Keyword-driven testing approach for easier test case design. <br>  - Support for acceptance testing and integration with Selenium for web testing. <br>  - High-level test cases are easy to read and write.|  - Primarily used for acceptance and end-to-end testing, not low-level unit testing. <br>  - May require additional libraries for specific test cases.|
+| `tox`          |   - Provides a way to manage and automate the testing of different Python environments. <br> - Useful for ensuring cross-version and cross-environment compatibility.          |   - May require additional configuration for specific project needs.<br>  - Not a testing framework itself but a tool for test automation.
+| `Testify`      |  - A lightweight testing framework that supports test discovery. <br>- Offers fixtures and simple test case definitions. |  - Less feature-rich compared to some other frameworks like `pytest`. <br>  - Smaller community and less extensibility.
+| `Hypothesis`   |  - Enables property-based testing, which automatically generates a wide range of test cases.  <br> - Helps discover edge cases and uncover unexpected issues. <br>  - Can generate complex test data for unbiased testing.        |   - Requires an understanding of property-based testing concepts.  <br>- May not be suitable for all types of testing. <br>  - Learning curve for those new to property-based testing.|
+| `Playwright`   |  - Offers a Python library for end-to-end testing of web applications. <br>  - Supports multiple browsers.  <br> - Provides capabilities for automating web interactions. |   - Primarily designed for web application testing, not low-level unit testing. <br> - Requires web application setup and access to a browser.|
+
+
 Please keep in mind that `doctest` is primarily designed for testing code examples embedded within docstrings, while `Robot Framework` is predominantly employed for acceptance testing purposes.
 
 Licenses of each framework
@@ -112,6 +133,8 @@ Here's a table of popular testing frameworks in Python, along with their respect
 | `Playwright`     | [Official Playwright Documentation](https://playwright.dev/python/docs/intro) |
 
 Please note that the provided links lead to the official documentation or repositories for each testing framework. You can find detailed information, documentation, and resources at these links.
+
+
 
 
 ###################Suggestions##############################
@@ -155,70 +178,3 @@ https://www.testscenario.com/python-testing-frameworks/
 
 
 
-
-
-
-
-
-
-Certainly, here's a table summarizing the advantages and disadvantages of some of the most popular Python testing frameworks:
-
-| Framework    | Advantages                                                                                                   | Disadvantages                                                                                                           |
-|-------------|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| `unittest`   | **Advantages:**
-              - Built-in to Python Standard Library.
-              - Well-documented and widely used.
-              - Supports test discovery.
-              - Offers test fixtures for setup and teardown.
-              - Compatible with continuous integration tools.
-              **Disadvantages:**
-              - Often considered verbose.
-              - Less concise syntax compared to other frameworks.
-              - Requires more boilerplate code.    |                                                                                                                |
-| `pytest`     | **Advantages:**
-              - Concise and readable test code.
-              - Rich ecosystem of plugins.
-              - Powerful fixtures system.
-              - Advanced features like parameterized testing.
-              - Detailed failure reports.
-              - Well-maintained and highly extensible.
-              **Disadvantages:**
-              - Third-party library (not built-in).
-              - Learning curve for advanced features.     |                                                                                                                |
-| `nose`       | **Advantages:**
-              - Supports test discovery and test running.
-              - Allows test attributes and better test discovery.
-              - Extensible through plugins.
-              **Disadvantages:**
-              - Less popular and maintained compared to `pytest`.
-              - Limited features for advanced testing.
-              - Somewhat dated and less extensible.    |                                                                                                                |
-| `doctest`    | **Advantages:**
-              - Part of Python Standard Library.
-              - Embeds tests within documentation.
-              - Simple test setup.
-              - Useful for documentation testing.
-              **Disadvantages:**
-              - Limited to testing docstrings.
-              - May not be suitable for complex test scenarios.
-              - Less flexible compared to other frameworks.  |                                                                                                                |
-| `nose2`      | **Advantages:**
-              - An improved version of `nose` with better test discovery.
-              - Test attributes and plugins.
-              - Supports parallel test execution.
-              **Disadvantages:**
-              - Less popular compared to `pytest`.
-              - Still less known in the testing community.
-              - Less extensible and feature-rich than `pytest`.   |                                                                                                                |
-| `Hypothesis` | **Advantages:**
-              - Property-based testing.
-              - Automatically generates a wide range of test cases.
-              - Unbiased testing with complex data.
-              - Discovers edge cases.
-              - Helps uncover unexpected issues.
-              **Disadvantages:**
-              - Requires understanding of property-based testing.
-              - May not be suitable for all types of testing.
-              - Learning curve for newcomers.    |                                                                                                                |
-
-Please note that the advantages and disadvantages of each testing framework are subjective and can depend on your specific project requirements and personal preferences. It's essential to consider your project's needs and your team's familiarity with the framework when making a choice. Additionally, some frameworks can be used together or integrated to leverage their respective strengths.
