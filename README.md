@@ -23,6 +23,14 @@ Observations:
 
 *** PSF License is similar to MIT License
 
+#### unittest2 ####
+URL: https://pypi.org/project/unittest2/
+
+License: Python Software Foundation License (PSF License)
+
+
+Observations:
+*** unittest is the primary unit testing framework in Python, and it is available in Python versions 2.7 and later. unittest2 serves as a compatibility layer for users of Python 2.4-2.6 who want to access some of the features available in the standard unittest module introduced in Python 2.7.
 
 ##### hyphotesis #####
 URL: https://hypothesis.readthedocs.io/en/latest/
@@ -88,17 +96,20 @@ Observations: Apache License 2.0
 
 Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
 
-| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities | BDD Support |
-|---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|-------------|
-| `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | No          |
-| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   | No          |
-| `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               | No          |
-| `doctest`           | Docstring Testing | Easy             | Yes             | No              | No                   | Limited               | No          |
-| `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               | No          |
-| `Hypothesis`        | Property-based    | Medium           | Yes             | No              | Yes                  | No                    | No          |
-| `tox`               | Test Automation   | Medium           | Yes             | Yes             | No                   | No                    | No          |
-| `Behave`            | BDD               | Medium           | Yes             | Yes             | No                   | No                    | Yes         |
-| `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    | Yes         |
+| Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |
+|---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|
+| `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
+| `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 
+| `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   |
+| `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               |
+| `nose2`             | Unit Testing      | Medium           | Yes             | Yes             | Yes                  | Limited               |
+| `doctest`           | Docstring Testing | Easy             | Yes             | No              | No                   | Limited               |
+| `Hypothesis`        | Property-based    | Medium           | Yes             | No              | Yes                  | No                    |
+| `tox`               | Test Automation   | Medium           | Yes             | Yes             | No                   | No                    |
+| `Behave`            | BDD               | Medium           | Yes             | Yes             | No                   | No                    |
+| `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    |
+| `playwright`        | BDD               | Medium           | Yes             | Yes             | Yes                  | Yes                   |
+
 
 Note:
 - "Type" indicates the type of testing the framework is primarily designed for (e.g., unit testing, property-based testing, BDD).
