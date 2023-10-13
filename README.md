@@ -4,14 +4,10 @@ Within this README, you will find a brief explanation for each available framewo
 
 
 ##### Pytest #####
+URL: https://docs.pytest.org/en/7.4.x/
 
-##### Pytest #####
-
-##### Pytest #####
-##### Pytest #####
-##### Pytest #####
-##### Pytest #####
 ##### Playwright #####
+URL: PythonTestingFrameworks
 
-
-
+##### Unittest #####
+URL: https://docs.python.org/3/library/unittest.html
