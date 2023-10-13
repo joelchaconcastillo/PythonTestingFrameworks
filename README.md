@@ -10,14 +10,10 @@ These frameworks are sort in terms of usability and popularity, each of them con
 ##### pytest #####
 URL: https://docs.pytest.org/en/7.4.x/
 
-License: MIT
-
 Observations:
 
 ##### unittest #####
 URL: https://docs.python.org/3/library/unittest.html
-
-License: Python Software Foundation License (PSF License)
 
 Observations:
 
@@ -26,8 +22,6 @@ Observations:
 #### unittest2 ####
 URL: https://pypi.org/project/unittest2/
 
-License: Python Software Foundation License (PSF License)
-
 
 Observations:
 *** unittest is the primary unit testing framework in Python, and it is available in Python versions 2.7 and later. unittest2 serves as a compatibility layer for users of Python 2.4-2.6 who want to access some of the features available in the standard unittest module introduced in Python 2.7.
@@ -35,14 +29,10 @@ Observations:
 ##### hyphotesis #####
 URL: https://hypothesis.readthedocs.io/en/latest/
 
-License: Mozilla Public License 2.0 (MPL-2.0)
-
 Observations:
 
 ##### doctest #####
 URL: https://docs.python.org/3/library/doctest.html
-
-License: Python Software Foundation License (PSF License)
 
 Observations: 
 
@@ -51,14 +41,10 @@ Observations:
 ##### nose #####
 URL: https://pypi.org/project/nose/
 
-License: GNU Lesser General Public License (LGPL) version 2.1
-
 Observations:
 
 ##### nose2 #####
 URL: https://docs.nose2.io/en/latest/
-
-License: MIT License
 
 Observations:
 
@@ -66,8 +52,6 @@ Observations:
 
 ##### testify #####
 URL: https://pypi.org/project/testify/
-
-License: MIT License
 
 Observations:
 
@@ -138,7 +122,7 @@ More comparisons
 
 
 
-Comparing different Python frameworks for unit testing is a common way to determine which one suits your project's needs. Here's a comparative table of some popular Python unit testing frameworks:
+
 
 | Framework            | Description                                                                 | Key Features                           | Popularity                                   |
 |----------------------|-----------------------------------------------------------------------------|----------------------------------------|---------------------------------------------|
@@ -151,8 +135,24 @@ Comparing different Python frameworks for unit testing is a common way to determ
 | Hypothesis           | A property-based testing framework that generates test data automatically. | Automatically generates test cases, wide test coverage, complex test scenarios. | Gaining popularity in property-based testing. |
 
 
-"Please keep in mind that `doctest` is primarily designed for testing code examples embedded within docstrings, while `Robot Framework` is predominantly employed for acceptance testing purposes.
+Please keep in mind that `doctest` is primarily designed for testing code examples embedded within docstrings, while `Robot Framework` is predominantly employed for acceptance testing purposes.
 
+
+
+| Framework Name | License              |
+|-----------------|----------------------|
+| `unittest`     | Python License       |
+| `unittest2`     | Python License       |
+| `pytest`       | MIT License          |
+| `nose`         | GNU LGPL              |
+| `nose2`        | GNU LGPL              |
+| `doctest`      | Python License       |
+| `Behave`       | MIT License          |
+| `Robot Framework` | Apache License 2.0 |
+| `tox`          | MIT License          |
+| `Testify`      | Apache License 2.0 |
+| `Hypothesis`   | MIT License          |
+| `Playwright`   | Apache License 2.0 |
 
 
 ###################Suggestions##############################
