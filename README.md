@@ -111,7 +111,7 @@ Note:
 
 The table previously shown provides a simplified comparison. 
 
-More comparisons
+Comparison of most popular frameworks:
 
 | Feature                               | `unittest`                 | `pytest`                    | `nose`                     |
 |---------------------------------------|-----------------------------|-----------------------------|-----------------------------|
@@ -121,7 +121,7 @@ More comparisons
 | Fixture Support                       | Basic test setup/teardown methods | Powerful fixtures and plugins | Basic test |
 
 
-
+Some description of the most popular frameworks:
 
 
 | Framework            | Description                                                                 | Key Features                           | Popularity                                   |
@@ -137,7 +137,7 @@ More comparisons
 
 Please keep in mind that `doctest` is primarily designed for testing code examples embedded within docstrings, while `Robot Framework` is predominantly employed for acceptance testing purposes.
 
-
+Licenses of each framework
 
 | Framework Name | License              |
 |-----------------|----------------------|
@@ -153,6 +153,27 @@ Please keep in mind that `doctest` is primarily designed for testing code exampl
 | `Testify`      | Apache License 2.0 |
 | `Hypothesis`   | MIT License          |
 | `Playwright`   | Apache License 2.0 |
+
+URL of each frameaork
+
+Here's a table of popular testing frameworks in Python, along with their respective official links:
+
+| Framework Name   | Official Link                                        |
+|------------------|-----------------------------------------------------|
+| `unittest`       | [Official `unittest` Documentation](https://docs.python.org/3/library/unittest.html) |
+| `unittest2`       | [Official `unittest` Documentation](https://pypi.org/project/unittest2/) |
+| `pytest`         | [Official `pytest` Documentation](https://docs.pytest.org/en/latest/) |
+| `nose`           | [Official `nose` Documentation](https://nose.readthedocs.io/en/latest/) |
+| `nose2`          | [Official `nose2` Repository](https://github.com/nose-devs/nose2) |
+| `doctest`        | [Official `doctest` Documentation](https://docs.python.org/3/library/doctest.html) |
+| `Behave`         | [Official Behave Documentation](https://behave.readthedocs.io/en/latest/index.html) |
+| `Robot Framework` | [Official Robot Framework Website](https://robotframework.org/) |
+| `tox`            | [Official `tox` Documentation](https://tox.readthedocs.io/en/latest/) |
+| `Testify`        | [Official Testify Repository](https://github.com/Yelp/Testify) |
+| `Hypothesis`     | [Official Hypothesis Documentation](https://hypothesis.readthedocs.io/en/latest/) |
+| `Playwright`     | [Official Playwright Documentation](https://playwright.dev/python/docs/intro) |
+
+Please note that the provided links lead to the official documentation or repositories for each testing framework. You can find detailed information, documentation, and resources at these links.
 
 
 ###################Suggestions##############################
