@@ -10,14 +10,14 @@ These frameworks are sort in terms of usability and popularity, each of them con
 ##### pytest #####
 URL: https://docs.pytest.org/en/7.4.x/
 
-Licence: MIT
+License: MIT
 
 Observations:
 
 ##### unittest #####
 URL: https://docs.python.org/3/library/unittest.html
 
-Licence: Python Software Foundation License (PSF License)
+License: Python Software Foundation License (PSF License)
 
 Observations:
 
@@ -27,7 +27,7 @@ Observations:
 ##### hyphotesis #####
 URL: https://hypothesis.readthedocs.io/en/latest/
 
-Licence: Mozilla Public License 2.0 (MPL-2.0)
+License: Mozilla Public License 2.0 (MPL-2.0)
 
 Observations:
 
@@ -43,14 +43,14 @@ Observations:
 ##### nose #####
 URL: https://pypi.org/project/nose/
 
-Licence: GNU Lesser General Public License (LGPL) version 2.1
+License: GNU Lesser General Public License (LGPL) version 2.1
 
 Observations:
 
 ##### nose2 #####
 URL: https://docs.nose2.io/en/latest/
 
-Licence: MIT License
+License: MIT License
 
 Observations:
 
@@ -64,7 +64,7 @@ Observations:
 ##### playwright #####
 URL: https://playwright.dev/
 
-Licence: Apache License 2.0
+License: Apache License 2.0
 
 Observations:
 
