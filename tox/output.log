@@ -1,0 +1,14 @@
+py36: skipped because could not find python interpreter with spec(s): py36
+py36: SKIP ⚠ in 0.52 seconds
+py37: skipped because could not find python interpreter with spec(s): py37
+py37: SKIP ⚠ in 0.5 seconds
+py38: commands[0]> python -m unittest discover -s tests
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+  py36: SKIP (0.52 seconds)
+  py37: SKIP (0.49 seconds)
+  py38: OK (0.07=setup[0.02]+cmd[0.05] seconds)
+  congratulations :) (1.15 seconds)

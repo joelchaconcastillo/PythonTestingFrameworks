@@ -40,12 +40,28 @@ URL: https://docs.nose2.io/en/latest/
 Licence: MIT License
 Observations:
 
+##### testify #####
+URL: https://pypi.org/project/testify/
+License: MIT License
+Observations:
+
 ##### playwright #####
 URL: https://playwright.dev/
 Licence: Apache License 2.0
 Observations:
 
 
+##Frameworks type Behave Driven Development (BDD)##
+
+##### behave #####
+URL: https://behave.readthedocs.io/en/latest/
+License: MIT License
+Observations:
+
+##### robot #####
+URL: https://robotframework.org/
+License: MIT License
+Observations: Apache License 2.0
 
 
 Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
@@ -74,3 +90,23 @@ Note:
 The table provides a simplified comparison. Depending on your project's specific needs, you may want to consider other factors like community support, available plugins and extensions, and integration with other tools in your development and testing stack.
 
 Selecting the right testing framework depends on your project requirements and personal preferences. Consider the type of testing you'll be doing, the complexity of your tests, and the tools that work well with your development environment.
+
+
+
+
+
+
+
+###################Suggestions##############################
+
+AI-Enhanced Static Code Analysis
+====DeepCode
+====Kite
+Mutation Testing 
+====MutPy
+====Pitest
+AI-Based Code Review
+====CodeClimate
+====DeepCode
+
+

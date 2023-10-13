@@ -1,0 +1,12 @@
+Feature: Calculator # features/my_features2.feature:1
+  In order to avoid silly mistakes
+  I want to be told the sum of two numbers
+  Scenario: Add two numbers                                                             # features/my_features2.feature:5
+    Given I have entered 5 into the calculator and I have entered 7 into the calculator # steps/my_steps2.py:3
+    When I press add                                                                    # steps/my_steps2.py:8
+    Then the result should be 12 on the screen                                          # steps/my_steps2.py:12
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+3 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
