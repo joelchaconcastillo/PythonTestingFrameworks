@@ -7,79 +7,14 @@ These frameworks are sort in terms of usability and popularity, each of them con
 `run.sh`: to run the example
 `output.log`: saves the output (stdout and stderr) of executing 'run.sh'
 
-##### pytest #####
-URL: https://docs.pytest.org/en/7.4.x/
-
-Observations:
-
-##### unittest #####
-URL: https://docs.python.org/3/library/unittest.html
-
-Observations:
-
-*** PSF License is similar to MIT License
-
-#### unittest2 ####
-URL: https://pypi.org/project/unittest2/
-
 
 Observations:
 *** unittest is the primary unit testing framework in Python, and it is available in Python versions 2.7 and later. unittest2 serves as a compatibility layer for users of Python 2.4-2.6 who want to access some of the features available in the standard unittest module introduced in Python 2.7.
 
-##### hyphotesis #####
-URL: https://hypothesis.readthedocs.io/en/latest/
-
-Observations:
-
-##### doctest #####
-URL: https://docs.python.org/3/library/doctest.html
-
-Observations: 
-
-*** PSF License is similar to MIT License
-
-##### nose #####
-URL: https://pypi.org/project/nose/
-
-Observations:
-
-##### nose2 #####
-URL: https://docs.nose2.io/en/latest/
-
-Observations:
-
 **While both nose and nose2 serve similar purposes and share some common features, nose2 is a more modern and actively maintained framework. If you are starting a new project or working with Python 3 and later versions, nose2 is likely a better choice. However, if you have an existing project that relies on nose, it may be more practical to continue using nose for backward compatibility
 
-##### testify #####
-URL: https://pypi.org/project/testify/
-
-Observations:
-
-**It is commonly used alongside other testing tools.
-
-##### playwright #####
-URL: https://playwright.dev/
-
-License: Apache License 2.0
-
-Observations:
 
 
-##Frameworks type Behave Driven Development (BDD)##
-
-##### behave #####
-URL: https://behave.readthedocs.io/en/latest/
-
-License: MIT License
-
-Observations:
-
-##### robot #####
-URL: https://robotframework.org/
-
-License: MIT License
-
-Observations: Apache License 2.0
 
 
 Creating a comprehensive comparison table for testing frameworks can be quite extensive, as there are numerous testing frameworks with different features and capabilities. However, I can provide a simplified comparison table for some popular testing frameworks in Python to help you get started. Keep in mind that this table provides a basic overview and may not cover all aspects of each framework. Features and capabilities can vary over time as frameworks evolve.
