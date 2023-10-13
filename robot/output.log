@@ -1,0 +1,11 @@
+==============================================================================
+My Tests                                                                      
+==============================================================================
+My First Test                                                         | PASS |
+------------------------------------------------------------------------------
+My Tests                                                              | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /home/joelchacon/PythonTestingFrameworks/robot/output.xml
+Log:     /home/joelchacon/PythonTestingFrameworks/robot/log.html
+Report:  /home/joelchacon/PythonTestingFrameworks/robot/report.html

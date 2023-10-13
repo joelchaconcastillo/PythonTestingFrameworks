@@ -2,7 +2,10 @@
 This repository has been created to assess the performance, usability, and maintenance aspects of frameworks specifically designed for Python language testing.
 Within this README, you will find a brief explanation for each available framework, along with an example for each.
 
-These frameworks are sort in terms of usability and popularity
+These frameworks are sort in terms of usability and popularity, each of them contains three files:
+`install.sh`: this is to install the package with pip3
+`run.sh`: to run the example
+`output.log`: saves the output (stdout and stderr) of executing 'run.sh'
 
 ##### pytest #####
 URL: https://docs.pytest.org/en/7.4.x/
