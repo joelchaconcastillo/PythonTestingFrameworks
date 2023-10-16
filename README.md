@@ -38,7 +38,7 @@ Creating a comprehensive comparison table for testing frameworks can be quite ex
 | `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    | 2008                  |
 | `playwright`        | BDD               | Medium           | Yes             | Yes             | Yes                  | Yes                   | 2020                  |
 | `Lettuce`           | BDD               | NA           | NA             | Na             | NA                  | NA                   | NA                  |
-| `pyu=Unit`           | NA               | NA           | NA             | Na             | NA                  | NA                   | NA                  |
+| `pyUnit`           | NA               | NA           | NA             | Na             | NA                  | NA                   | NA                  |
 
 
 Note:
