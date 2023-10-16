@@ -162,7 +162,18 @@ Please note that the provided links lead to the official documentation or reposi
   * pypom_form
   * Golem
   * Pylenium.io
-    
+
+## Taxonomy of Testing
+* Unit Testing Frameworks: Unit testing is a fundamental aspect of software testing, verifying individual units or components of code to ensure they work as intended. 
+  * pytest
+  * unittest
+* Functional Testing Frameworks: Functional testing involves testing the functionality and behavior of an application as a whole, simulating user interactions, and validating expected outcomes.
+  * Selenium
+  * testRigor
+  * Robot Framework
+* Integration Testing Frameworks: Integration testing involves testing the interaction and communication between different components or modules of an application.
+  * PyTest-BDD
+
 ## References:
 
 https://www.thoughtworks.com/radar
