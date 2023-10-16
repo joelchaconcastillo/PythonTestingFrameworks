@@ -137,7 +137,7 @@ Please note that the provided links lead to the official documentation or reposi
 
 
 
-## Some suggestions
+## Some Assitional Suggestions
 
 * AI-Enhanced Static Code Analysis
   * DeepCode
@@ -148,7 +148,21 @@ Please note that the provided links lead to the official documentation or reposi
 * AI-Based Code Review
   * CodeClimate
   * DeepCode
-
+## Other Frameworks of Python used in Test Automation
+* UI automation
+  * selenium webdriver
+  * Toolium
+  * webdriver_manager
+  * gauge
+  * splinter
+  * Mailosaur
+  * wtframework
+  * Needle
+  * PyPOM
+  * pypom_form
+  * Golem
+  * Pylenium.io
+    
 ## References:
 
 https://www.thoughtworks.com/radar
