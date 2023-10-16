@@ -26,7 +26,7 @@ Creating a comprehensive comparison table for testing frameworks can be quite ex
 | Framework           | Type              | Ease of Use      | Test Discovery | Fixture Support | Parameterized Tests | Mocking Capabilities |  Date first release |
 |---------------------|-------------------|------------------|-----------------|-----------------|----------------------|-----------------------|-----------------------|
 | `pytest`            | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Yes                   | 2004                  |
-| `unittest`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 2001                  |
+| `unittest (a.k.a. pyunit)`          | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 2001                  |
 | `unittest2`         | Unit Testing      | Medium           | Yes             | Yes             | Limited              | Limited               | 2019                  |
 | `testify`           | Unit Testing      | Medium           | Yes             | No              | Limited              | Limited               | 2010                  |
 | `nose`              | Unit Testing      | Easy             | Yes             | Yes             | Yes                  | Limited               | 2005                  |
@@ -38,7 +38,6 @@ Creating a comprehensive comparison table for testing frameworks can be quite ex
 | `Robot Framework`   | BDD               | Medium           | Yes             | Yes             | No                   | No                    | 2008                  |
 | `playwright`        | BDD               | Medium           | Yes             | Yes             | Yes                  | Yes                   | 2020                  |
 | `Lettuce`           | BDD               | NA           | NA             | Na             | NA                  | NA                   | NA                  |
-| `pyUnit`           | NA               | NA           | NA             | Na             | NA                  | NA                   | NA                  |
 
 
 Note:
