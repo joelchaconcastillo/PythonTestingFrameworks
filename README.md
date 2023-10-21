@@ -1,5 +1,13 @@
 # Exploring Python Testing Frameworks: A Comprehensive Review
 
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+
 This repository has been created to assess the performance, usability, and maintenance aspects of frameworks specifically designed for Python language testing.
 Within this README, you will find a brief explanation for each available framework, along with an example for each.
 
@@ -205,6 +213,9 @@ https://www.testscenario.com/python-testing-frameworks/
 
 
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTYxMTA5OV19
+eyJoaXN0b3J5IjpbLTEyMTIzMzEwMDldfQ==
 -->
