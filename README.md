@@ -231,3 +231,88 @@ https://www.testscenario.com/python-testing-frameworks/
 eyJoaXN0b3J5IjpbLTEyMzc1MTc5OSw3NzE4ODA2MTMsLTEyMT
 IzMzEwMDldfQ==
 -->
+
+
+
+
+graph LR
+  linkStyle default fill:#ffffff
+
+  subgraph diagram[True North Services diagram]
+    style diagram fill:#ffffff,stroke:#ffffff
+
+    idEndUser["fa:fa-user<div style='font-weight: bold'>End User</div><div style='font-size: 70%; margin-top: 0px'>[Person]</div>"]
+    style idEndUser fill:#08427b,stroke:#052e56,color:#ffffff
+
+    subgraph CSP
+        idFrontend("<div style='font-weight: bold'>Frontend</div><div style='font-size: 70%; margin-top: 0px'>[OJET]</div>")
+        style idFrontend fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idBFF("<div style='font-weight: bold'>Backend-for-Frontend (BFF)</div><div style='font-size: 70%; margin-top: 0px'>[Apollo GraphQL (JS)]</div>")
+        style idBFF fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idCSPIdentity("<div style='font-weight: bold'>Identity</div><div style='font-size: 70%; margin-top: 0px'>[<mark>TODO</mark>]</div>")
+        style idCSPIdentity fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idCSPIdentityDataStore[(SpiceDB)]
+
+        idBFF("<div style='font-weight: bold'>Backend-for-Frontend (BFF)</div><div style='font-size: 70%; margin-top: 0px'>[Apollo GraphQL (JS)]</div>")
+        style idBFF fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idAuthorization("<div style='font-weight: bold'>Authorization</div><div style='font-size: 70%; margin-top: 0px'>[<mark>TODO</mark>]</div>")
+        style idAuthorization fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idCSPPlaceholder("<div style='font-weight: bold'><mark>Placeholder</mark></div><div style='font-size: 70%; margin-top: 0px'>[<mark>TODO</mark>]</div>")
+        style idCSPPlaceholder fill:#1168bd,stroke:#0b4884,color:#ffffff
+    end
+
+    subgraph True North
+        idUser("<i class='fa-brands fa-python'></i><div style='font-weight: bold'>User</div><div style='font-size: 70%; margin-top: 0px'>[FastAPI]</div>")
+        style idUser fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idOrganization("<i class='fa-brands fa-python'></i><div style='font-weight: bold'>Organization</div><div style='font-size: 70%; margin-top: 0px'>[FastAPI]</div>")
+        style idOrganization fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idRecommendation("<i class='fa-brands fa-python'></i><div style='font-weight: bold'>Recommendation</div><div style='font-size: 70%; margin-top: 0px'>[FastAPI]</div>")
+        style idRecommendation fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idProduct("<i class='fa-brands fa-python'></i><div style='font-weight: bold'>Product</div><div style='font-size: 70%; margin-top: 0px'>[FastAPI]</div>")
+        style idProduct fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idNotification("<i class='fa-brands fa-python'></i><div style='font-weight: bold'>Notification</div><div style='font-size: 70%; margin-top: 0px'>[FastAPI]</div>")
+        style idNotification fill:#1168bd,stroke:#0b4884,color:#ffffff
+
+        idUserDataStore[(Data Store)]
+        idOrganizationDataStore[(Data Store)]
+        idRecommendationDataStore[(Data Store)]
+        idProductDataStore[(Data Store)]
+
+        idMyLearn("<i class='fa-brands fa-js'></i><div style='font-weight: bold'>MyLearn</div><div style='font-size: 70%; margin-top: 0px'>[Nest, Typescript & OJET]</div>")
+    end
+
+    idOCIStreamming("<div style='font-weight: bold'>OCI Streamming</div>")
+
+    idEndUser-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idFrontend
+    idFrontend-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idBFF
+    idBFF-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idUser
+    idBFF-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idOrganization
+    idBFF-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idRecommendation
+    idBFF-. "<div>HTTP request</div><div style='font-size: 70%'></div>" .->idProduct
+    idOrganization-. "<div>Produces Event</div><div style='font-size: 70%'></div>" .->idOCIStreamming
+    idOCIStreamming-. "<div>Consumes Event</div><div style='font-size: 70%'></div>" .->idNotification
+
+    idUser<-. "<div>I/O</div><div style='font-size: 70%'></div>" .->idUserDataStore
+    idOrganization<-. "<div>I/O</div><div style='font-size: 70%'></div>" .->idOrganizationDataStore
+    idRecommendation<-. "<div>I/O</div><div style='font-size: 70%'></div>" .->idRecommendationDataStore
+    idProduct<-. "<div>I/O</div><div style='font-size: 70%'></div>" .->idProductDataStore
+
+    idRecommendation-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idMyLearn
+
+    idCSPIdentity-. "<div>I/O</div><div style='font-size: 70%'></div>" .->idCSPIdentityDataStore
+    idUser-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idCSPIdentity
+    idRecommendation-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idCSPIdentity
+    idOrganization-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idCSPIdentity
+    idProduct-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idCSPIdentity
+    idBFF-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idAuthorization
+    idCSPPlaceholder-. "<div>Produces Event</div><div style='font-size: 70%'></div>" .->idOCIStreamming
+  end
