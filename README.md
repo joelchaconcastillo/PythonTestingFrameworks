@@ -232,9 +232,7 @@ eyJoaXN0b3J5IjpbLTEyMzc1MTc5OSw3NzE4ODA2MTMsLTEyMT
 IzMzEwMDldfQ==
 -->
 
-
-
-
+```mermaid
 graph LR
   linkStyle default fill:#ffffff
 
@@ -316,3 +314,4 @@ graph LR
     idBFF-. "<div>HTTP Request</div><div style='font-size: 70%'></div>" .->idAuthorization
     idCSPPlaceholder-. "<div>Produces Event</div><div style='font-size: 70%'></div>" .->idOCIStreamming
   end
+```
